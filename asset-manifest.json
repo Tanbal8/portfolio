@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tanbal8.github.io/portfolio/static/css/main.ae910635.css",
+    "main.js": "/tanbal8.github.io/portfolio/static/js/main.96437640.js",
+    "static/js/453.11936110.chunk.js": "/tanbal8.github.io/portfolio/static/js/453.11936110.chunk.js",
+    "index.html": "/tanbal8.github.io/portfolio/index.html",
+    "main.ae910635.css.map": "/tanbal8.github.io/portfolio/static/css/main.ae910635.css.map",
+    "main.96437640.js.map": "/tanbal8.github.io/portfolio/static/js/main.96437640.js.map",
+    "453.11936110.chunk.js.map": "/tanbal8.github.io/portfolio/static/js/453.11936110.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae910635.css",
+    "static/js/main.96437640.js"
+  ]
+}
