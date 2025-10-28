@@ -1,17 +1,14 @@
 #skills-section {
     background-color: darkcyan;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     justify-items: center;
-    align-content: center;
-    row-gap: 50px;
-    padding: 10%;
-    padding-top: calc(10% + 20px);
-    /* display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+#skill-card-list {
+    padding: 0 10%;
+}
+.skill-card-area {
+    display: flex;
     justify-content: center;
-    align-content: center;
-    gap: 20px;
-    flex-wrap: wrap; */
-    
+    align-items: center;
 }
