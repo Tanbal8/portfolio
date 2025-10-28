@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import { Component } from 'react';
+import data from './data.json'
+import Navigation from './components/navigation/Navigation';
+import Introducion_Section from './sections/introducion-section/Introducion_Section';
+import Skills_Section from './sections/skills-section/Skills_Section';
+import { SocialIcon } from 'react-social-icons';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navigation />
+        <Introducion_Section />
+        <Skills_Section />
+      </div>
+    );
+  }
 }
 
 export default App;

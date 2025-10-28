@@ -1,0 +1,13 @@
+#introducion-section {
+    background-color: papayawhip;
+}
+h1 {
+    margin: 0 0 1rem;
+}
+#social-media-icons {
+    display: flex;
+    justify-content: center;
+}
+#social-media-icons > *:not(:last-child) {
+    margin-right: 10px;
+}
