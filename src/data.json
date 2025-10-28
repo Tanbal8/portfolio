@@ -1,0 +1,29 @@
+{
+    "author": {
+        "first_name": "Ali",
+        "last_name": "Radmard",
+        "age": 19
+    },
+    "links": {
+        "github": "https://github.com/tanbal8",
+        "linkedin": "https://www.linkedin.com/in/ali-radmard-a4b743376",
+        "instagram": "https://instagram.com/tanbal.derakhty",
+        "telegram": "https://t.me/+989176831031",
+        "whatsapp": "https://wa.me/+989176831031",
+        "twitter": "https://x.com/tanbal_derakhty"
+    },
+    "skills": {
+        "html": 80,
+        "css": 80,
+        "javascript": 80,
+        "bootstrap": 20,
+        "react": 10,
+        "next.js": 5,
+        "php": 20,
+        "mysql": 20
+    },
+    "section": {
+        "introducion": {},
+        "skills": {}
+    }
+}
