@@ -17,3 +17,20 @@
     -webkit-text-stroke: 1px black;
     font-family: Arial, Helvetica, sans-serif;
 }
+.next-section-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transform: scale(1.2);
+    color: transparent;
+    -webkit-text-stroke: 3px #444;
+    transition: color 0.1s linear, margin-bottom 0.1s ease;
+}
+.next-section-button:hover {
+    color: #444;
+}
+.next-section-button:active {
+    margin-bottom: -5px;
+}

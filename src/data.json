@@ -13,14 +13,38 @@
         "twitter": "https://x.com/tanbal_derakhty"
     },
     "skills": {
-        "html": 80,
-        "css": 80,
-        "javascript": 80,
-        "bootstrap": 20,
-        "react": 10,
-        "next.js": 5,
-        "php": 20,
-        "mysql": 20
+        "html": {
+            "score": 80,
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+        },
+        "css": {
+            "score": 80,
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+        },
+        "javascript": {
+            "score": 80,
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+        },
+        "react": {
+            "score": 30,
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+        },
+        "bootstrap": {
+            "score": 30,
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+        },
+        "next.js": {
+            "score": 10,
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
+        },
+        "php": {
+            "score": 20,
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+        },
+        "mysql": {
+            "score": 20,
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+        }
     },
     "section": {
         "introducion": {},

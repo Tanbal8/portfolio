@@ -1,3 +1,30 @@
 .App {
   text-align: center;
 }
+#back-to-top-button {
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border: 3px solid white;
+  outline: 3px solid rosybrown;
+  background-color: rosybrown;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #333;
+  transition: background-color 0.15s linear, outline 0.15s linear, transform 0.15s linear;
+}
+#back-to-top-button:hover {
+  background-color: peru;
+  outline-color: peru;
+  transform: scale(1.1);
+}
+#back-to-top-button > i {
+  color: white;
+  margin-top: -2px;
+  transition: transform 0.15 linear;
+}

@@ -3,6 +3,7 @@ import Section from "../Section";
 import data from '../../data.json';
 import './introducion-section.css';
 import { SocialIcon } from 'react-social-icons';
+import Next_Section_Button from "../../components/Next_Section_Button";
 class Introducion_Section extends Component {
     render() {
         return (
@@ -13,6 +14,7 @@ class Introducion_Section extends Component {
                         return <SocialIcon url={data.links[social_media]} network={social_media} key={social_media} />
                     })}
                 </div>
+                <Next_Section_Button target='skills-section' />
             </Section>
         );
     }
